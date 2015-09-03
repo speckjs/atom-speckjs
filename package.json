@@ -1,0 +1,15 @@
+{
+  "name": "atom-speck",
+  "main": "./lib/atom-speck",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Tiny comments, great tests",
+  "activationEvents": ["ascii-art-js:convert"],
+  "repository": "https://github.com/speckjs/atom-speck",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
