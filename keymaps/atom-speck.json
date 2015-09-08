@@ -1,5 +1,0 @@
-{
-  ".editor": {
-    "cmd-alt-s": "atom-speck:buildSpecs"
-  }
-}
