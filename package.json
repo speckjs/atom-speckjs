@@ -1,15 +1,19 @@
 {
-  "name": "atom-speck",
-  "main": "./lib/atom-speck",
-  "version": "0.0.1",
-  "private": true,
-  "description": "Tiny comments, great tests",
-  "activationEvents": ["ascii-art-js:convert"],
-  "repository": "https://github.com/speckjs/atom-speck",
+  "name": "speckjs",
+  "main": "./lib/speckjs",
+  "version": "0.0.0",
+  "description": "tyny comments, great tests",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "speckjs:toggle"
+  },
+  "repository": "https://github.com/atom/speckjs",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "speckjs": "0.0.3"
   }
 }
