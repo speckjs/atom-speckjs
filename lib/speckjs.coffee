@@ -1,4 +1,6 @@
-SpeckjsView = require './speckjs-view'
+{allowUnsafeEval} = require 'loophole'
+speckjs = allowUnsafeEval -> require 'speckjs'
+
 {CompositeDisposable} = require 'atom'
 
 module.exports = Speckjs =
@@ -7,9 +9,6 @@ module.exports = Speckjs =
   subscriptions: null
 
   activate: (state) ->
-    @speckjsView = new SpeckjsView(state.speckjsViewState)
-    @modalPanel = atom.workspace.addModalPanel(item: @speckjsView.getElement(), visible: false)
-
     # Events subscribed to in atom's system can be easily cleaned up with a CompositeDisposable
     @subscriptions = new CompositeDisposable
 
@@ -17,12 +16,9 @@ module.exports = Speckjs =
     @subscriptions.add atom.commands.add 'atom-workspace', 'speckjs:build': => @build()
 
   deactivate: ->
-    @modalPanel.destroy()
     @subscriptions.dispose()
-    @speckjsView.destroy()
 
   serialize: ->
-    speckjsViewState: @speckjsView.serialize()
 
   build: ->
     console.log 'Speckjs was toggled!'
