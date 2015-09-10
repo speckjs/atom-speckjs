@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Build speckjs'
+      'command': 'speckjs:build'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'SpeckJS'
+      'submenu': [
+        {
+          'label': 'Build'
+          'command': 'speckjs:build'
+        }
+      ]
+    ]
+  }
+]

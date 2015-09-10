@@ -1,0 +1,20 @@
+{
+  "name": "speckjs",
+  "main": "./lib/speckjs",
+  "version": "0.0.0",
+  "description": "tyny comments, great tests",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "speckjs:build"
+  },
+  "repository": "https://github.com/speckjs/atom-speckjs",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "speckjs": "0.0.6",
+    "loophole": "1.1.0"
+  }
+}
