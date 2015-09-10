@@ -6,7 +6,7 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "speckjs:toggle"
+    "atom-workspace": "speckjs:build"
   },
   "repository": "https://github.com/atom/speckjs",
   "license": "MIT",

@@ -14,7 +14,7 @@ module.exports = Speckjs =
     @subscriptions = new CompositeDisposable
 
     # Register command that toggles this view
-    @subscriptions.add atom.commands.add 'atom-workspace', 'speckjs:toggle': => @toggle()
+    @subscriptions.add atom.commands.add 'atom-workspace', 'speckjs:build': => @build()
 
   deactivate: ->
     @modalPanel.destroy()
@@ -24,7 +24,7 @@ module.exports = Speckjs =
   serialize: ->
     speckjsViewState: @speckjsView.serialize()
 
-  toggle: ->
+  build: ->
     console.log 'Speckjs was toggled!'
 
     if @modalPanel.isVisible()

@@ -2,19 +2,19 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Toggle speckjs'
-      'command': 'speckjs:toggle'
+      'label': 'Build speckjs'
+      'command': 'speckjs:build'
     }
   ]
 'menu': [
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'speckjs'
+      'label': 'SpeckJS'
       'submenu': [
         {
-          'label': 'Toggle'
-          'command': 'speckjs:toggle'
+          'label': 'Build'
+          'command': 'speckjs:build'
         }
       ]
     ]
