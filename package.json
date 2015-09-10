@@ -14,7 +14,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "speckjs": "0.0.6",
+    "speckjs": "0.0.7",
     "loophole": "1.1.0"
   }
 }
