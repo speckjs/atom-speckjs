@@ -6,14 +6,15 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "speckjs:toggle"
+    "atom-workspace": "speckjs:build"
   },
-  "repository": "https://github.com/atom/speckjs",
+  "repository": "https://github.com/speckjs/atom-speckjs",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "speckjs": "0.0.3"
+    "speckjs": "0.0.6",
+    "loophole": "1.1.0"
   }
 }
