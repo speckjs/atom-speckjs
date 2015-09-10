@@ -1,10 +1,9 @@
 {
   "name": "speckjs",
   "main": "./lib/speckjs",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "tyny comments, great tests",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "speckjs:build"
   },
