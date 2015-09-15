@@ -1,8 +1,8 @@
 {
   "name": "speckjs",
   "main": "./lib/speckjs",
-  "version": "0.0.0",
-  "description": "tyny comments, great tests",
+  "version": "1.0.0",
+  "description": "Comment Driven Development",
   "keywords": [
   ],
   "activationCommands": {
@@ -14,7 +14,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "speckjs": "0.0.7",
+    "speckjs": ">=1.0.1 <2.0.0",
     "loophole": "1.1.0"
   }
 }
