@@ -1,9 +1,9 @@
-![Build Status](https://travis-ci.org/speckjs/atom-speckjs.svg?branch=development)
+![Build Status](https://travis-ci.org/speckjs/atom-speckjs.svg?branch=master)
 
 # SpeckJS for Atom
 
 ## About
-SpeckJS is an npm module that parses JavaScript and outputs unit-tests. SpeckJS currently supports the [Tape](https://github.com/substack/tape) and [Jasmine](https://github.com/jasmine/jasmine) testing frameworks. Along with our Atom plugin, we have a plugin available for [Grunt](https://github.com/speckjs/grunt-speckjs), as well as a [standalone npm package](https://github.com/speckjs/speckjs).
+SpeckJS is an npm module that parses JavaScript and outputs unit-tests. SpeckJS currently supports the [Tape](https://github.com/substack/tape), [Jasmine](https://github.com/jasmine/jasmine), and [Mocha](https://github.com/mochajs/mocha)/[Chai](https://github.com/chaijs/chai) testing frameworks. Along with our Atom plugin, we have plugins available for [Grunt](https://github.com/speckjs/grunt-speckjs), [Gulp](https://github.com/speckjs/gulp-speckjs), as well as a [standalone npm package](https://github.com/speckjs/speckjs).
 
 Our goal with SpeckJS is to make it as easy as possible to get started using Test-Driven Development on a new project, to quickly add unit-tests to your existing project, or anywhere in between. We know the value of well-tested code, and SpeckJS is here to make that simpler than ever.
 
@@ -81,6 +81,8 @@ These are the assertion types currently supported, and you can extend this list 
 ```
 
 ## Support
-SpeckJS is also available as a plugin for the following platform:
+SpeckJS is also available as a plugin for the following platforms:
 
 [Grunt](https://github.com/speckjs/grunt-speckjs)
+
+[Gulp](https://github.com/speckjs/gulp-speckjs)
