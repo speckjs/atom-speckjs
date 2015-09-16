@@ -4,6 +4,13 @@
   "version": "1.0.0",
   "description": "Comment Driven Development",
   "keywords": [
+    "tdd",
+    "test",
+    "tape",
+    "jasmine",
+    "mocha",
+    "spec",
+    "unit"
   ],
   "activationCommands": {
     "atom-workspace": "speckjs:build"
