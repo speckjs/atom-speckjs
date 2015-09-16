@@ -1,9 +1,17 @@
 {
   "name": "speckjs",
   "main": "./lib/speckjs",
-  "version": "0.2.0",
-  "description": "tyny comments, great tests",
-  "keywords": [],
+  "version": "1.0.0",
+  "description": "Comment Driven Development",
+  "keywords": [
+    "tdd",
+    "test",
+    "tape",
+    "jasmine",
+    "mocha",
+    "spec",
+    "unit"
+  ],
   "activationCommands": {
     "atom-workspace": "speckjs:build"
   },
@@ -13,7 +21,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "speckjs": "0.0.7",
+    "speckjs": ">=1.0.1 <2.0.0",
     "loophole": "1.1.0"
   }
 }
